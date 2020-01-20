@@ -1,0 +1,36 @@
+<!--top-->
+<div class="main">
+
+  <div class="header">
+    <div class="header_resize">
+      <div class="logo">
+        <h1>
+          <a class="navbar-brand" href="<%= themeConfig.domain %>">
+            <%= themeConfig.siteName %>
+            <br>
+            <small class="lbg">
+              非盈利民间网络安全技术研究组织
+            </small>
+          </a>
+        </h1>
+      </div>
+      
+      <div class="menu_nav">
+        <ul class="navbar-nav ml-auto">
+          <% menus.forEach(function(menu) { %>
+          <li class="nav-item">
+              <% if (menu.openType === 'External') { %>
+              <a class="nav-link" href="<%= menu.link %>" target="_blank"><%= menu.name %></a>
+              <% } else { %>
+              <a class="nav-link" href="<%= menu.link %>"><%= menu.name %></a>
+              <% } %>
+          </li>
+          <% }); %>
+        </ul>
+      </div>
+      
+	  <div class="clr"></div>
+      <img class="logoimg" src="<%= themeConfig.domain %>/media/images/home-bg.jpg" width="960" height="239" />
+      <div class="clr"></div>
+    </div>
+  </div>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+     <%- include('./includes/head', { siteTitle: `${tag.name} | ${themeConfig.siteName}` }) %>
+  </head>
+  <body>
+            <%- include('./includes/top') %>
+    
+            <div class="content">
+              <div class="content_resize">
+                <div class="mainbar">
+                  <div class="article">
+                   <p>#<%= tag.name %></p> 
+                  </div>
+                </div>
+          
+                <%- include('./includes/footer') %>
+  </body>
+</html>

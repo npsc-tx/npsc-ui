@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+     <%- include('./includes/head', { siteTitle: `标签列表 | ${themeConfig.siteName}` }) %>
+  </head>
+  <body>
+    <%- include('./includes/top') %>
+    
+    <div class="content">
+      <div class="content_resize">
+        <div class="mainbar">
+          <div class="article">
+            <% tags.forEach((tag) => { %>
+              <a href="<%= tag.link %>">
+                  <%= tag.name %>
+               </a>
+             <% }); %>
+          </div>
+        </div>
+  
+        <%- include('./includes/footer') %>
+  </body>
+</html>
+
+
+

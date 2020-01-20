@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <%- include('./includes/head', { siteTitle: themeConfig.siteName }) %>
+  </head>
+  <body>
+
+    <%- include('./includes/top') %>
+    
+  <div class="content">
+    <div class="content_resize">
+      <div class="mainbar">
+        <div class="article">
+          <p>本网站使用 npsc - ui v1.0 | 基于 Gridea 所开发的纯黑风格模板</p>
+          <img src="<%= themeConfig.domain %>/media/images/logo_b.png" width="287" height="97" alt="image" />
+          <img src="<%= themeConfig.domain %>/media/images/img1.png" width="287" height="97" alt="image" />
+          <span class="lbg">v1.0</span>
+        </div>
+        <div class="article">
+               <% posts.forEach(function(post) { %>
+                  <h2><%= post.title %></h2>
+                  <h3 class="post-subtitle"><%- post.abstract %></h3>
+                  <p>
+                    <span class="lbg"><%= post.dateFormat %></span>
+                    <a href="<%= post.link %>"><span class="lbg">立即阅读</span></a>
+                  </p>
+                <% }); %>
+                <% if (pagination.prev) { %>
+                <a class="lbg" href="<%= pagination.prev %>">&larr; 上一页</a>
+                <% } %>
+                <% if (pagination.next) { %>
+                <a class="lbg" href="<%= pagination.next %>">下一页 &rarr;</a>
+                <% } %>
+        </div>
+      </div>
+
+      <%- include('./includes/footer') %>
+  <!--npsc-->
+
+
+
+
+
+  </body>
+</html>

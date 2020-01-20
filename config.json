@@ -1,0 +1,359 @@
+{
+  "name": "npsc - ui",
+  "version": "1.0.0",
+  "author": "天析",
+  "customConfig": [
+    {
+      "name": "tdgg",
+      "label": "团队公告",
+      "group": "团队公告",
+      "value": "",
+      "type": "input",
+      "note": "请输入内容"
+    },
+    {
+      "name": "gywm",
+      "label": "关于我们",
+      "group": "底部",
+      "value": "",
+      "type": "input",
+      "note": "请输入内容"
+    },
+    {
+      "name": "lxfs1",
+      "label": "联系方式 - 1",
+      "group": "底部",
+      "value": "",
+      "type": "input",
+      "note": "请输入内容"
+    },
+    {
+      "name": "lxfs2",
+      "label": "联系方式 - 2",
+      "group": "底部",
+      "value": "",
+      "type": "input",
+      "note": "请输入内容"
+    },
+    {
+      "name": "xmwh1-nr",
+      "label": "项目维护内容 - 1",
+      "group": "维护中的项目",
+      "value": "",
+      "type": "input",
+      "note": "输入项目内容"
+    },
+    {
+      "name": "xmwh1-lj",
+      "label": "项目维护链接 - 1",
+      "group": "维护中的项目",
+      "value": "",
+      "type": "input",
+      "note": "输入项目链接地址"
+    },
+    {
+      "name": "xmwh2-nr",
+      "label": "项目维护内容 - 2",
+      "group": "维护中的项目",
+      "value": "",
+      "type": "input",
+      "note": "输入项目内容"
+    },
+    {
+      "name": "xmwh2-lj",
+      "label": "项目维护链接 - 2",
+      "group": "维护中的项目",
+      "value": "",
+      "type": "input",
+      "note": "输入项目链接地址"
+    },
+    {
+      "name": "xmwh3-nr",
+      "label": "项目维护内容 - 3",
+      "group": "维护中的项目",
+      "value": "",
+      "type": "input",
+      "note": "输入项目内容"
+    },
+    {
+      "name": "xmwh3-lj",
+      "label": "项目维护链接 - 3",
+      "group": "维护中的项目",
+      "value": "",
+      "type": "input",
+      "note": "输入项目链接地址"
+    },
+    {
+      "name": "xmwh4-nr",
+      "label": "项目维护内容 - 4",
+      "group": "维护中的项目",
+      "value": "",
+      "type": "input",
+      "note": "输入项目内容"
+    },
+    {
+      "name": "xmwh4-lj",
+      "label": "项目维护链接 - 4",
+      "group": "维护中的项目",
+      "value": "",
+      "type": "input",
+      "note": "输入项目链接地址"
+    },
+    {
+      "name": "xmwh5-nr",
+      "label": "项目维护内容 - 5",
+      "group": "维护中的项目",
+      "value": "",
+      "type": "input",
+      "note": "输入项目内容"
+    },
+    {
+      "name": "xmwh5-lj",
+      "label": "项目维护链接 - 5",
+      "group": "维护中的项目",
+      "value": "",
+      "type": "input",
+      "note": "输入项目链接地址"
+    },
+    {
+      "name": "xmwh6-nr",
+      "label": "项目维护内容 - 6",
+      "group": "维护中的项目",
+      "value": "",
+      "type": "input",
+      "note": "输入项目内容"
+    },
+    {
+      "name": "xmwh6-lj",
+      "label": "项目维护链接 - 6",
+      "group": "维护中的项目",
+      "value": "",
+      "type": "input",
+      "note": "输入项目链接地址"
+    },
+    {
+      "name": "xmwh7-nr",
+      "label": "项目维护内容 - 7",
+      "group": "维护中的项目",
+      "value": "",
+      "type": "input",
+      "note": "输入项目内容"
+    },
+    {
+      "name": "xmwh7-lj",
+      "label": "项目维护链接 - 7",
+      "group": "维护中的项目",
+      "value": "",
+      "type": "input",
+      "note": "输入项目链接地址"
+    },
+    {
+      "name": "xmwh8-nr",
+      "label": "项目维护内容 - 8",
+      "group": "维护中的项目",
+      "value": "",
+      "type": "input",
+      "note": "输入项目内容"
+    },
+    {
+      "name": "xmwh8-lj",
+      "label": "项目维护链接 - 8",
+      "group": "维护中的项目",
+      "value": "",
+      "type": "input",
+      "note": "输入项目链接地址"
+    },
+    {
+      "name": "xmwh9-nr",
+      "label": "项目维护内容 - 9",
+      "group": "维护中的项目",
+      "value": "",
+      "type": "input",
+      "note": "输入项目内容"
+    },
+    {
+      "name": "xmwh9-lj",
+      "label": "项目维护链接 - 9",
+      "group": "维护中的项目",
+      "value": "",
+      "type": "input",
+      "note": "输入项目链接地址"
+    },
+    {
+      "name": "xmwh10-nr",
+      "label": "项目维护内容 - 10",
+      "group": "维护中的项目",
+      "value": "",
+      "type": "input",
+      "note": "输入项目内容"
+    },
+    {
+      "name": "xmwh10-lj",
+      "label": "项目维护链接 - 10",
+      "group": "维护中的项目",
+      "value": "",
+      "type": "input",
+      "note": "输入项目链接地址"
+    },
+    {
+      "name": "ldxj1-nr",
+      "label": "漏洞环境名称 - 1",
+      "group": "在线漏洞环境",
+      "value": "",
+      "type": "input",
+      "note": "请输入漏洞名称"
+    },
+    {
+      "name": "ldxj1-lj",
+      "label": "在线练习链接 - 1",
+      "group": "在线漏洞环境",
+      "value": "",
+      "type": "input",
+      "note": "请输入练习地址"
+    },
+    {
+      "name": "ldxj2-nr",
+      "label": "漏洞环境名称 - 2",
+      "group": "在线漏洞环境",
+      "value": "",
+      "type": "input",
+      "note": "请输入漏洞名称"
+    },
+    {
+      "name": "ldxj2-lj",
+      "label": "在线练习链接 - 2",
+      "group": "在线漏洞环境",
+      "value": "",
+      "type": "input",
+      "note": "请输入练习地址"
+    },
+    {
+      "name": "ldxj3-nr",
+      "label": "漏洞环境名称 - 3",
+      "group": "在线漏洞环境",
+      "value": "",
+      "type": "input",
+      "note": "请输入漏洞名称"
+    },
+    {
+      "name": "ldxj3-lj",
+      "label": "在线练习链接 - 3",
+      "group": "在线漏洞环境",
+      "value": "",
+      "type": "input",
+      "note": "请输入练习地址"
+    },
+    {
+      "name": "ldxj4-nr",
+      "label": "漏洞环境名称 - 4",
+      "group": "在线漏洞环境",
+      "value": "",
+      "type": "input",
+      "note": "请输入漏洞名称"
+    },
+    {
+      "name": "ldxj4-lj",
+      "label": "在线练习链接 - 4",
+      "group": "在线漏洞环境",
+      "value": "",
+      "type": "input",
+      "note": "请输入练习地址"
+    },
+    {
+      "name": "ldxj5-nr",
+      "label": "漏洞环境名称 - 5",
+      "group": "在线漏洞环境",
+      "value": "",
+      "type": "input",
+      "note": "请输入漏洞名称"
+    },
+    {
+      "name": "ldxj5-lj",
+      "label": "在线练习链接 - 5",
+      "group": "在线漏洞环境",
+      "value": "",
+      "type": "input",
+      "note": "请输入练习地址"
+    },
+    {
+      "name": "ldxj6-nr",
+      "label": "漏洞环境名称 - 6",
+      "group": "在线漏洞环境",
+      "value": "",
+      "type": "input",
+      "note": "请输入漏洞名称"
+    },
+    {
+      "name": "ldxj6-lj",
+      "label": "在线练习链接 - 6",
+      "group": "在线漏洞环境",
+      "value": "",
+      "type": "input",
+      "note": "请输入练习地址"
+    },
+    {
+      "name": "ldxj7-nr",
+      "label": "漏洞环境名称 - 7",
+      "group": "在线漏洞环境",
+      "value": "",
+      "type": "input",
+      "note": "请输入漏洞名称"
+    },
+    {
+      "name": "ldxj7-lj",
+      "label": "在线练习链接 - 7",
+      "group": "在线漏洞环境",
+      "value": "",
+      "type": "input",
+      "note": "请输入练习地址"
+    },
+    {
+      "name": "ldxj8-nr",
+      "label": "漏洞环境名称 - 8",
+      "group": "在线漏洞环境",
+      "value": "",
+      "type": "input",
+      "note": "请输入漏洞名称"
+    },
+    {
+      "name": "ldxj8-lj",
+      "label": "在线练习链接 - 8",
+      "group": "在线漏洞环境",
+      "value": "",
+      "type": "input",
+      "note": "请输入练习地址"
+    },
+    {
+      "name": "ldxj9-nr",
+      "label": "漏洞环境名称 - 9",
+      "group": "在线漏洞环境",
+      "value": "",
+      "type": "input",
+      "note": "请输入漏洞名称"
+    },
+    {
+      "name": "ldxj9-lj",
+      "label": "在线练习链接 - 9",
+      "group": "在线漏洞环境",
+      "value": "",
+      "type": "input",
+      "note": "请输入练习地址"
+    },
+    {
+      "name": "ldxj10-nr",
+      "label": "漏洞环境名称 - 10",
+      "group": "在线漏洞环境",
+      "value": "",
+      "type": "input",
+      "note": "请输入漏洞名称"
+    },
+    {
+      "name": "ldxj10-lj",
+      "label": "在线练习链接 - 10",
+      "group": "在线漏洞环境",
+      "value": "",
+      "type": "input",
+      "note": "请输入练习地址"
+    }
+  ]
+}

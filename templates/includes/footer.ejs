@@ -1,0 +1,94 @@
+<!-- Footer -->  
+<div class="sidebar">
+  <div class="gadget">
+    <h2 class="star"><span>团队公告</span></h2>
+    <% ['tdgg'].forEach((item) => { %>
+      <% if (site.customConfig[item]) { %>
+        <p><%= site.customConfig[item] %></p>
+      <% } %>
+    <% }) %>
+  </div>
+  <div class="gadget">
+    <h2 class="star">维护中的项目</h2>
+    <ul class="sb_menu">
+      <% ['xmwh1-nr','xmwh2-nr','xmwh3-nr','xmwh4-nr','xmwh5-nr','xmwh6-nr','xmwh7-nr','xmwh8-nr','xmwh9-nr','xmwh10-nr'].forEach((item) => { %>
+        <% if (site.customConfig[item]) { %>
+          <li>
+            <a href="<% ['xmwh1-lj','xmwh2-lj','xmwh3-lj','xmwh4-lj','xmwh5-lj','xmwh6-lj','xmwh7-lj','xmwh8-lj','xmwh9-lj','xmwh10-lj'].forEach((item) => { %><% if (site.customConfig[item]) { %><%= site.customConfig[item] %><% } %><% }) %>">
+              <%= site.customConfig[item] %>
+            </a>
+          </li>
+        <% } %>
+      <% }) %>
+    </ul>
+  </div>
+  <div class="gadget">
+    <h2 class="star">在线漏洞环境</h2>
+    <p>如有任何问题请邮件通知我们予以更正！</p>
+    <ul class="sb_menu">
+      <% ['ldxj1-nr','ldxj2-nr','ldxj3-nr','ldxj4-nr','ldxj5-nr','ldxj6-nr','ldxj7-nr','ldxj8-nr','ldxj9-nr','ldxj10-nr'].forEach((item) => { %>
+        <% if (site.customConfig[item]) { %>
+          <li>
+            <a href="<% ['ldxj1-lj','ldxj2-lj','ldxj3-lj','ldxj4-lj','ldxj5-lj','ldxj6-lj','ldxj7-lj','ldxj8-lj','ldxj9-lj','ldxj10-lj'].forEach((item) => { %><% if (site.customConfig[item]) { %><%= site.customConfig[item] %><% } %><% }) %>">
+              <%= site.customConfig[item] %>
+            </a>
+          </li>
+        <% } %>
+      <% }) %>
+    </ul>
+  </div>
+</div>
+<div class="clr"></div>
+</div>
+</div>
+
+<div class="fbg">
+<div class="fbg_resize">
+<div class="col c1">
+  <h2><span>核心成员</span></h2>
+    <img src="http://q2.qlogo.cn/headimg_dl?dst_uin=2200475850&spec=640" width="56" height="56" />
+    <img src="http://q2.qlogo.cn/headimg_dl?dst_uin=1340914307&spec=640" width="56" height="56" />
+    <img src="http://q2.qlogo.cn/headimg_dl?dst_uin=2863686727&spec=640" width="56" height="56" />
+    <img src="http://q2.qlogo.cn/headimg_dl?dst_uin=2693132598&spec=640" width="56" height="56" />
+    <img src="http://q2.qlogo.cn/headimg_dl?dst_uin=979963511&spec=640" width="56" height="56" />
+    <img src="http://q2.qlogo.cn/headimg_dl?dst_uin=18673491151&spec=640" width="56" height="56" />
+    <img src="http://q2.qlogo.cn/headimg_dl?dst_uin=919402496&spec=640" width="56" height="56" />
+    <img src="http://q2.qlogo.cn/headimg_dl?dst_uin=371299225&spec=640" width="56" height="56" />
+    <img src="http://q2.qlogo.cn/headimg_dl?dst_uin=2946916634&spec=640" width="56" height="56" />
+    <img src="http://q2.qlogo.cn/headimg_dl?dst_uin=574401307&spec=640" width="56" height="56" />
+</div>
+
+<div class="col c2">
+  <h2><span>关于我们</span></h2>
+    <% ['gywm','lxfs1','lxfs2'].forEach((item) => { %>
+      <% if (site.customConfig[item]) { %>
+        <p><%= site.customConfig[item] %></p>
+      <% } %>
+    <% }) %>
+</div>
+<div class="col c3">
+  <h2><span>随机一言</span></h2>
+  <p><script type="text/javascript"src="https://api.ooopn.com/yan/api.php?type=js"></script><div id="yan"><script>yan()</script></div></p>
+</div>
+<div class="clr"></div>
+<div class="hzhb">
+  <p><%- themeConfig.footerInfo %></p>
+  <a target="_black" href="https://www.20191005.tech/"><img src="<%= themeConfig.domain %>/media/images/logo_b.png" width="88" height="31" alt="image" /></a>
+  <a target="_black" href="https://www.aliyun.com/"><img src="<%= themeConfig.domain %>/media/images/aly.png" width="88" height="31" alt="image" /></a>
+  <a target="_black" href="https://gridea.dev/"><img src="<%= themeConfig.domain %>/media/images/gridea.png" width="88" height="31" alt="image" /></a>
+</div>
+</div>
+</div>
+
+<div class="footer">
+<div class="footer_resize">
+<p class="lf">&copy; 2018-2020 北极边界安全 - 全站静态化</p>
+<ul class="fmenu">
+  <li><a href="https://www.shallowdream.cn/">	夜莺</a></li>
+  <li><a href="http://www.0-sec.org/">零组文库</a></li>
+  <li><a href="https://www.qingfengblog.com/">卿枫博客</a></li>
+</ul>
+<div class="clr"></div>
+</div>
+</div>
+</div>

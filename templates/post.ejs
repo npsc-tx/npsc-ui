@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <%- include('./includes/head', { siteTitle: `${post.title} | ${themeConfig.siteName}` }) %>
+    <meta property="og:description" content="<%= post.title %>"/>
+    <meta property="og:url" content="<%= post.link %>"/>
+    <meta property="og:locale" content="zh-CN"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:site_name" content="<%= themeConfig.siteName %>"/>
+  </head>
+  <body>
+    <%- include('./includes/top') %>
+
+    <div class="content">
+      <div class="content_resize">
+        <div class="mainbar">
+          <div class="article">
+            <span class="tags">
+              <% post.tags.forEach(function(tag) { %>
+             <a href="<%= tag.link %>" class="tag"><%= tag.name %></a>
+             <% }); %>
+         </span>
+             <h1><%= post.title %></h1>
+             <span class="meta">
+               Posted on
+               <%= post.dateFormat %>，<%= post.stats.text %>
+             </span>
+           <%- post.content %>
+           <% if (post.nextPost && !post.hideInList) { %>
+           <p class="next-post">下一篇：
+             <a href="<%= post.nextPost.link %>">
+               <span class="post-title">
+                 <%= post.nextPost.title %>&rarr;
+               </span>
+             </a>
+           </p>
+         <% } %>
+          </div>
+        </div>
+
+    <%- include('./includes/footer') %>
+  </body>
+</html>
+
+
+
+
+
+
+</div>
