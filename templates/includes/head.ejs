@@ -41,7 +41,7 @@
 <script charset="utf-8" type="text/javascript" src="https://changyan.sohu.com/upload/changyan.js" ></script>
 <script type="text/javascript">
 window.changyan.api.config({
-appid: 'cyuD285tn',
-conf: 'prod_9d518b98b290c7f5a245dddca3eee4d8'
+appid: '<% ['cy-appid'].forEach((item) => { %><% if (site.customConfig[item]) { %><%= site.customConfig[item] %><% } %><% }) %>',
+conf: '<% ['cy-conf'].forEach((item) => { %><% if (site.customConfig[item]) { %><%= site.customConfig[item] %><% } %><% }) %>'
 });
 </script>

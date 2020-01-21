@@ -354,6 +354,22 @@
       "value": "",
       "type": "input",
       "note": "请输入练习地址"
+    },
+    {
+      "name": "cy-appid",
+      "label": "畅言 - appid:",
+      "group": "畅言",
+      "value": "",
+      "type": "input",
+      "note": "请输入appid"
+    },
+    {
+      "name": "cy-conf",
+      "label": "畅言 - conf:",
+      "group": "畅言",
+      "value": "",
+      "type": "input",
+      "note": "请输入conf"
     }
   ]
 }
